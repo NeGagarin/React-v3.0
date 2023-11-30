@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif ;
+    gap: 1rem;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 15px;
+    text-align: center;
+}
+.footer span{
+    transition: 1.5s;
+}
+.for_users {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: antiquewhite;
+    width: 50%;
+    gap: 20px;
+    margin-left: 4rem;
+}
+.links {
+    color: antiquewhite;
+    display: flex;
+    gap: 20px;
+    cursor:pointer;
+}
+.links span:hover{
+    transform:scale(1.5s)
+}
+.paragraph {
+    text-align: start;
+    line-height: 2;
+    font-size: 12px;
+}
+.our_links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: antiquewhite;
+    margin-top: 50px;
+    gap: 35px;
+    width: 15%;
+}
+
+.Icons {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    width: 7rem;
+    transition: 1s;
+}
+.circle {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #313131;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: rotate(1s);
+}
+.circle:hover{
+    transform: scale(1.5);
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: antiquewhite;
+    margin-top: 50px;
+    align-items:first baseline;
+    gap: 20px;
+}
+
+.get_it {
+    width: 100px;
+    height: 100px;
+    display:flex;
+    flex-direction:auto;
+    align-items: center;
+    margin-right: 5rem;
+    margin-left: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.get_it :nth-child(2){
+    width: 7rem;
+    height: auto;
+    transition: 1.3s;
+    cursor: pointer;
+    margin-right:100px;
+}
+.image {
+    width: 8rem;
+    height: 3.5rem;
+    transition: 1.3s;
+    cursor: pointer;
+    
+
+}
+.image:hover{
+    transform: scale(1.3);
+}
+
