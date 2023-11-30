@@ -5,6 +5,9 @@ import SingleCard from './components/Single-Card/SingleCard.jsx';
 import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 
+import Navigation from './components/Navigation/Navigation';
+import Footer from './components/Footer/Footer';
+
 const mockData = [
   {
     id: 1, 
@@ -38,6 +41,7 @@ function App() {
       <Grid container spacing={2} sx={{padding:"50px"}}>
       {mockData.map(({id, name, image, time}, index) => (
       <Grid item xs={3} key={index}>
+
       <SingleCard 
       id={id}
       name={name}
